@@ -1,80 +1,91 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
     transition: 0.5s;
 }
-body{
+
+body {
     background: rgb(44, 44, 44);
 }
 
 /* UTILITY CLASSES START */
 
-.flex{
+.flex {
     display: flex;
 }
-.h1{
+
+.h1 {
     font-weight: 900;
     color: white;
     font-size: 3.1rem;
 }
-.p{
+
+.p {
     font-weight: 400;
     color: white;
     font-size: 1.5rem;
     margin-top: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     /* line-spacing: 0.2rem; */
 }
-.h2{
+
+.h2 {
     color: white;
     font-weight: 400;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.25rem;
 }
+
 /* UTILITY CLASSES END */
 
-option{
+option {
     color: white;
     padding: 10px 20px;
     margin: 10px;
     background: black;
 }
-.view{
+
+.view {
     height: 100vh;
     width: 100vw;
-    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(../background-image/Home-page-background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../background-image/Home-page-background.jpg);
     /* object-fit: cover; */
     background-position: center;
     background-size: cover;
 }
-#navbar{
+
+#navbar {
     max-width: 100%;
     /* background: black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
-.logo img{
+
+.logo img {
     width: 180px;
     margin: 0px 10px;
 }
-.languages{
+
+.languages {
     margin-right: 30px;
 }
-.languages select{
+
+.languages select {
     padding: 10px 25px;
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
     color: white;
     font-weight: 600;
     border: 1px solid grey;
     font-family: sans-serif;
     border-radius: 4px;
-    
+
 }
+
 /* .languages option{
     padding: 10px 25px;
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
@@ -84,10 +95,11 @@ option{
     font-family: sans-serif;
     border-radius: 4px;
 } */
-.signup{
+.signup {
     margin-right: 40px;
 }
-.signup button{
+
+.signup button {
     background: red;
     border: none;
     border-radius: 4px;
@@ -95,7 +107,8 @@ option{
     padding: 11px 15px;
 
 }
-.signup button a{
+
+.signup button a {
     color: white;
     /* padding: 10px; */
     text-decoration: none;
@@ -103,16 +116,18 @@ option{
     font-family: sans-serif;
 
 }
-.home{
+
+.home {
     margin-top: 120px;
     text-align: center;
 }
-form{
+
+form {
     margin-top: 30px;
 }
 
-form input[type="email"]{
-    padding: 20px 20px ;
+form input[type="email"] {
+    padding: 20px 20px;
     width: 400px;
     /* font-weight: 600; */
     font-size: 1rem;
@@ -121,30 +136,33 @@ form input[type="email"]{
     outline: none;
     font-family: sans-serif;
     border-radius: 4px;
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
     margin-right: 10px;
 }
 
-form button{
+form button {
     padding: 15px 20px;
-    background:red;
+    background: red;
     color: white;
     border: none;
     border-radius: 4px;
     font-size: 1.5rem;
-    
+
 }
-.home h1{
+
+.home h1 {
     padding: 0px 20px;
 }
-.input-start{
+
+.input-start {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
+
 /* Another section starts from here  */
 
-.enjoy{
+.enjoy {
     height: 70vh;
     width: 100%;
     background: black;
@@ -152,24 +170,28 @@ form button{
     padding: 0px 30px;
 }
 
-.enjoy-box{
+.enjoy-box {
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
 
 }
-.enjoy-content ,.enjoy-screen{
+
+.enjoy-content,
+.enjoy-screen {
     width: 50%;
     padding: 0px 10px;
     position: relative;
     z-index: 1;
 
 }
-.enjoy-screen img{
+
+.enjoy-screen img {
     width: 100%;
 }
-.screen-video{
+
+.screen-video {
     width: 351px;
     position: absolute;
     top: 74px;
@@ -177,21 +199,23 @@ form button{
     z-index: -1;
 }
 
-.screen-video video{
-    width: 100%;
-}
-.screen-video2{
-width: 277px;
-position: absolute;
-top: 30px;
-left: 96px;
-z-index: -1;
-}
-.screen-video2 video{
+.screen-video video {
     width: 100%;
 }
 
-.stranger-box{
+.screen-video2 {
+    width: 277px;
+    position: absolute;
+    top: 30px;
+    left: 96px;
+    z-index: -1;
+}
+
+.screen-video2 video {
+    width: 100%;
+}
+
+.stranger-box {
     border: 2px solid grey;
     border-radius: 10px;
     justify-content: space-around;
@@ -203,35 +227,41 @@ z-index: -1;
     /* top: 0px; */
     left: 95px;
     bottom: 24px;
-    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
 
-.stranger-logo img,.downloading-gif img{
+.stranger-logo img,
+.downloading-gif img {
     width: 50px;
     margin: 5px;
 }
-.stranger-content p{
+
+.stranger-content p {
     color: blue;
     font-size: 0.8rem;
     font-weight: lighter;
 
 }
-.asked{
+
+.asked {
     background: black;
     width: 100%;
     margin-top: 10px;
 }
-.asked-heading{
+
+.asked-heading {
     justify-content: center;
     align-items: center;
     padding-top: 50px;
 }
-.questions{
+
+.questions {
     flex-direction: column;
     padding: 10px 30px;
     /* gap: 10px; */
 }
-.questions .question{
+
+.questions .question {
     width: 100%;
     padding: 25px 20px;
     color: white;
@@ -241,54 +271,62 @@ z-index: -1;
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
-    justify-content: space-between; 
-    cursor: pointer;   
+    justify-content: space-between;
+    cursor: pointer;
     transition: all 0.5s;
 }
-.question:hover{
+
+.question:hover {
     background: rgb(74, 74, 74);
 }
-.closing-form{
+
+.closing-form {
     justify-content: center;
     align-items: center;
     margin-bottom: 60px;
 }
-.footer{
-    background:black;
+
+.footer {
+    background: black;
     color: grey;
     margin-top: 10px;
     font-size: 0.9rem;
     width: 100%;
     padding-bottom: 60px;
 }
-.number{
+
+.number {
     padding-top: 50px;
     padding-left: 30px;
     margin-bottom: 20px;
     font-family: sans-serif;
 
 }
-.linkbox{
+
+.linkbox {
     display: flex;
     flex-direction: column;
     padding: 0px 30px;
     width: 25%;
 
 }
-.linkbox a{
+
+.linkbox a {
     color: grey;
     padding: 5px 0px;
     font-size: 0.9rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-.links{
+
+.links {
     width: 100%;
 }
-.linkbox .languages{
+
+.linkbox .languages {
     margin: 10px 0px;
 }
 
-.btn:hover{
+.btn:hover {
     background: rgb(196, 1, 1);
 }
